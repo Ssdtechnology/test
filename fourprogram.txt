@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to call a function with arguments</p>
+
+<button onclick="myFunction('Harry Potter','Wizard')">Try it</button>
+
+<script>
+function myFunction(name,job)
+{
+alert("Welcome " + name + ", the " + job);
+}
+</script>
+
+</body>
+</html>
+========================================
+<!DOCTYPE html>
+<html> 
+<head> 
+<script> 
+function myfunction(txt) 
+{ 
+alert(txt);
+} 
+</script> 
+</head> 
+
+<body> 
+<form> 
+<input type="button" 
+onclick="myfunction('Good Morning!')" 
+value="In the Morning"> 
+
+<input type="button" 
+onclick="myfunction('Good Evening!')" 
+value="In the Evening"> 
+</form> 
+
+<p>
+When you click on one of the buttons, a function will be called. The function will alert
+the argument that is passed to it.
+</p>
+
+</body> 
+</html> 
+
+
+========================================
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction()
+{
+return ("Hello world!");
+}
+</script>
+</head>
+<body>
+
+<script>
+document.write(myFunction())
+</script>
+
+</body>
+</html>
+========================================
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction()
+{
+return ("Hello world!");
+}
+</script>
+</head>
+<body>
+
+<script>
+document.write(myFunction())
+</script>
+
+</body>
+</html>
